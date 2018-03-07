@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.cecyt9.ipn.practicadepracticas.Main2Activity">
+
+    <Button
+        android:id="@+id/btnMemorama"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="268dp"
+        android:backgroundTint="?attr/colorAccent"
+        android:text="Memorama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAhorcado"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="268dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Ahorcado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGato"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="172dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Gato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnConecta"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="172dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Conecta 4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="WebView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnImageView"
+        android:layout_width="101dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="ImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

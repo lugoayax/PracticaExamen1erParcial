@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.cecyt9.ipn.practicadepracticas.memorama">
+
+    <ImageButton
+        android:id="@+id/amlo"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/amlo" />
+
+    <ImageButton
+        android:id="@+id/amlo2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="308dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/amlo" />
+
+    <ImageButton
+        android:id="@+id/emo"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="308dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emo" />
+
+    <ImageButton
+        android:id="@+id/emo2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="144dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emo" />
+
+    <ImageButton
+        android:id="@+id/ocnitrix"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="224dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ocnitrix" />
+
+    <ImageButton
+        android:id="@+id/ocnitrix2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ocnitrix" />
+
+    <ImageButton
+        android:id="@+id/patricio"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="56dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/patricio" />
+
+    <ImageButton
+        android:id="@+id/patricio2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="224dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/patricio" />
+
+    <ImageButton
+        android:id="@+id/piolin"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="224dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/piolin" />
+
+    <ImageButton
+        android:id="@+id/piolin2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="144dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/piolin" />
+
+    <ImageButton
+        android:id="@+id/pollo"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="148dp"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pollo" />
+
+    <ImageButton
+        android:id="@+id/pollo2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="308dp"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pollo" />
+</android.support.constraint.ConstraintLayout>
