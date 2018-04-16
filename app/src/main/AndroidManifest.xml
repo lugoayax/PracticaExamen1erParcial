@@ -23,8 +23,13 @@
         <activity android:name=".Main4Activity" />
         <activity android:name=".conecta4" />
         <activity android:name=".gato" />
-        <activity android:name=".memorama"/>
-        <activity android:name=".ahorcado"></activity>
+        <activity android:name=".memorama" />
+        <activity android:name=".ahorcado" />
+        <activity android:name=".calculadora" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".reserva" />
+        <activity android:name=".intents"></activity>
     </application>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
 </manifest>

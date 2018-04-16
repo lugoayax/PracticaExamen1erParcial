@@ -7,6 +7,28 @@
     tools:context="edu.cecyt9.ipn.practicadepracticas.Main2Activity">
 
     <Button
+        android:id="@+id/btnReserva"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="368dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Reserva"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="368dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Calculadora"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/btnMemorama"
         android:layout_width="110dp"
         android:layout_height="65dp"
@@ -69,6 +91,20 @@
         android:layout_marginTop="68dp"
         android:backgroundTint="@android:color/holo_green_light"
         android:text="ImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIntents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="444dp"
+        android:backgroundTint="?attr/colorError"
+        android:text="Intenciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

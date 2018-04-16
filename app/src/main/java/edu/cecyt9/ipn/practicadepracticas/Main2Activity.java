@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
 
-    Button web, image, conect, gato, ahorcado, memorama;
+    Button web, image, conect, gato, ahorcado, memorama, calculadora, reserva, inten;
     Intent redirect;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,13 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         gato=findViewById(R.id.btnGato);
         ahorcado=findViewById(R.id.btnAhorcado);
         memorama=findViewById(R.id.btnMemorama);
+        calculadora=findViewById(R.id.btnCalculadora);
+        reserva=findViewById(R.id.btnReserva);
+        inten=findViewById(R.id.btnIntents);
+        inten.setOnClickListener(this);
         memorama.setOnClickListener(this);
+        reserva.setOnClickListener(this);
+        calculadora.setOnClickListener(this);
         conect.setOnClickListener(this);
         ahorcado.setOnClickListener(this);
         gato.setOnClickListener(this);
@@ -52,6 +58,18 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         }
         if(view.getId()==memorama.getId()){
             redirect= new Intent(Main2Activity.this, memorama.class);
+            startActivity(redirect);
+        }
+        if(view.getId()==calculadora.getId()){
+            redirect= new Intent(Main2Activity.this, calculadora.class);
+            startActivity(redirect);
+        }
+        if(view.getId()==reserva.getId()){
+            redirect= new Intent(Main2Activity.this, reserva.class);
+            startActivity(redirect);
+        }
+        if(view.getId()==inten.getId()){
+            redirect= new Intent(Main2Activity.this, intents.class);
             startActivity(redirect);
         }
     }
